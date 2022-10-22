@@ -1,0 +1,251 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width:1200px) {
+    html {
+        font-size: 16px;
+    }
+
+    .heading-main-box {
+        transform: translate(-32%,-50%);
+    }
+}
+/* Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width:1023px) {
+    .logo {
+        width: 300px;
+        margin-left: 38px;
+    }
+
+    .main-nav {
+        margin-right: 15px;
+    }
+
+    .main-nav li {
+        margin-right: 15px;
+    }
+
+    .heading-main-box {
+        transform: translate(-20%, -50%);
+    }
+
+    .products-section .button {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .product-box {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 85%;
+    }
+
+    .product-box ul li {
+        margin-left: 12%;
+    }
+
+    .product-box .small-icon{
+        margin-right: 3px;
+    }
+
+    .social-icons li {
+        margin-left: 10px;
+    }
+
+    .information i {
+        display: block;
+    }
+}
+/* Small phones to small tablets */
+@media only screen and (max-width:767px) {
+    .col {
+        width: 100%;
+    }
+
+    .heading-main-box {
+        transform: translate(-18%, -55%);
+    }
+
+    h1 {
+        margin-left: 20px;
+        font-size: 200%;
+        word-spacing: 3px;
+    }
+
+    .picture-title {
+        font-size: 150%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
+
+    .about-picture {
+        text-align: center;
+    }
+    .about-picture img {
+        width: 80%;
+    }
+
+    .logo {
+        width: 350px;
+        margin-left: 15%;
+        margin-top: 15px;
+    }
+
+    .product-box {
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+    .product-box ul li {
+        margin-left: 22%;
+    }
+
+    .products-section .button {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    figcaption {
+        visibility: hidden;
+    }
+
+    .logo-sponsors {
+        width: 110px;
+        cursor: pointer;
+    }
+
+    form {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    label {
+        margin-left: 43%;
+    }
+
+    .information {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .small-icon {
+        margin-top: 10px;
+    }
+    .information li {
+        font-size: 20px;
+    }
+
+    .social-icons {
+        margin-top: 20px ;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .social-icons li {
+        font-size: 50px;
+    }
+
+    .logo {
+        margin-bottom: -130px;
+
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .mobile-nav-icon {
+        right: 40px;
+    }
+}
+/* Small phones from 0 to 480px */
+@media only screen and (max-width:480px) {
+    html {
+        font-size: 12px;
+    }
+
+    .heading-main-box .button {
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
+
+    h1 {
+        font-size: 150%;
+        transform: translate(9%, 15%);
+    }
+
+    .logo {
+        width: 220px;
+        margin-top: 80px;
+        margin-left: 20%;
+    }
+
+    .information li {
+        font-size: 16px;
+    }
+
+    .social-icons li {
+        font-size: 30px;
+    }
+
+    form {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .heading-main-box .button {
+        width: 13%;
+    }
+
+    .logo-sponsors {
+        width: 70px;
+        cursor: pointer;
+    }
+
+    input, textarea {
+        margin-left: 10px;
+    }
+
+    .mobile-nav-icon {
+        top: 140px;
+    }
+
+    .logo {
+        width: 180px;
+        margin-top: 90px;
+    }
+
+    .logo {
+        margin-bottom: -84px;
+    }
+
+    .sticky {
+        padding-bottom: 20px;
+    }
+    .sticky .logo {
+        width: 180px;
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width: 343px) {
+    .main-nav {
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 319px) {
+    .main-nav {
+        margin-left: 40px;
+    }
+
+    .mobile-nav-icon {
+        position: absolute;
+        top: 190px;
+        right: 30px;
+    }
+}
